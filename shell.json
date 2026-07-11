@@ -392,7 +392,6 @@
         },
         "idle": {
             "inhibitWhenAudio": true,
-            "inhibitWhenCharging": false,
             "lockBeforeSleep": true,
             "timeouts": [
                 {
@@ -421,7 +420,7 @@
         "showOverFullscreen": false
     },
     "launcher": {
-        "actionPrefix": ":",
+        "actionPrefix": ">",
         "actions": [
             {
                 "command": [
@@ -570,6 +569,17 @@
         "enableDangerousActions": true,
         "enabled": true,
         "favouriteApps": [
+            "neovide",
+            "spotify",
+            "blender",
+            "gimp",
+            "obsidian",
+            "ghidra",
+            "code-oss",
+            "codium",
+            "equibop",
+            "com.rtosta.zapzap",
+            "fcitx5-configtool"
         ],
         "hiddenApps": [
         ],
@@ -588,13 +598,9 @@
     },
     "lock": {
         "enableFprint": true,
-        "enableHowdy": true,
-        "enabled": true,
         "hideNotifs": false,
         "maxFprintTries": 3,
-        "maxHowdyTries": 3,
-        "recolourLogo": true,
-        "triggerHowdyOnWake": true
+        "recolourLogo": true
     },
     "nexus": {
         "networkRescanInterval": 15000,

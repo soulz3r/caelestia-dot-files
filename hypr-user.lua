@@ -19,7 +19,7 @@ return {
   hl.on("hyprland.start", function()
     -- This opens Spotify, waits 1 second, toggles caelestia, then KILLS Spotify
     hl.exec_cmd("bash -c 'fcxit5 -d && sleep 1'")
-    hl.exec_cmd("bash -c 'spotify >/dev/null 2>&1 & sleep 1; caelestia shell drawers toggle music'")
+    hl.exec_cmd("bash -c 'spotify >/dev/null 2>&1 & sleep 2; caelestia shell drawers toggle music'")
   end
 ),
 
