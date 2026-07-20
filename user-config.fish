@@ -8,7 +8,7 @@ abbr ll 'ls -l'
 abbr la 'ls -a'
 abbr lla 'ls -la'
 abbr ltd 'ls --tree --directory-only'
-abbr llf 'ls --tree'
+abbr ltf 'ls --tree'
 
 clear
 
