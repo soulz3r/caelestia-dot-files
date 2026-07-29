@@ -3,7 +3,7 @@ return {
   -- 1. Monitors Configuration
   hl.monitor({
     output = "HDMI-A-1",
-    mode = "1920x1080@75",
+    mode = "1920x1080@74.9999",
     position = "auto",
     scale = 1,
   }),

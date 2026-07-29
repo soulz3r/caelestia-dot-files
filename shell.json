@@ -1,4 +1,17 @@
 {
+    "ai": {
+        "activeOllamaModel": "llama3",
+        "activeProvider": "ollama",
+        "defaultOllamaModel": "llama3",
+        "defaultProvider": "ollama",
+        "enableCelestialMode": true,
+        "enableOllama": true,
+        "ollamaHistoryJson": "[]",
+        "ollamaModel": "llama3",
+        "ollamaUrl": "http://localhost:11434",
+        "saveChatHistory": true,
+        "snapToDefaultOllama": true
+    },
     "appearance": {
         "anim": {
             "durations": {
@@ -10,6 +23,7 @@
             "body": {
                 "family": "GoogleSansFlex",
                 "large": {
+                    "family": "",
                     "italic": false,
                     "size": 16,
                     "vaxes": {
@@ -18,6 +32,7 @@
                     "weight": 400
                 },
                 "medium": {
+                    "family": "",
                     "italic": false,
                     "size": 14,
                     "vaxes": {
@@ -26,6 +41,7 @@
                     "weight": 400
                 },
                 "small": {
+                    "family": "",
                     "italic": false,
                     "size": 12,
                     "vaxes": {
@@ -38,6 +54,7 @@
             "headline": {
                 "family": "GoogleSansFlex",
                 "large": {
+                    "family": "",
                     "italic": false,
                     "size": 32,
                     "vaxes": {
@@ -46,6 +63,7 @@
                     "weight": 500
                 },
                 "medium": {
+                    "family": "",
                     "italic": false,
                     "size": 28,
                     "vaxes": {
@@ -54,6 +72,7 @@
                     "weight": 500
                 },
                 "small": {
+                    "family": "",
                     "italic": false,
                     "size": 24,
                     "vaxes": {
@@ -64,6 +83,7 @@
             },
             "icon": {
                 "extraLarge": {
+                    "family": "",
                     "italic": false,
                     "size": 36,
                     "vaxes": {
@@ -72,6 +92,7 @@
                 },
                 "family": "Material Symbols Rounded",
                 "large": {
+                    "family": "",
                     "italic": false,
                     "size": 24,
                     "vaxes": {
@@ -79,6 +100,7 @@
                     "weight": 400
                 },
                 "medium": {
+                    "family": "",
                     "italic": false,
                     "size": 18,
                     "vaxes": {
@@ -86,6 +108,7 @@
                     "weight": 400
                 },
                 "small": {
+                    "family": "",
                     "italic": false,
                     "size": 15,
                     "vaxes": {
@@ -96,6 +119,7 @@
             "label": {
                 "family": "GoogleSansFlex",
                 "large": {
+                    "family": "",
                     "italic": false,
                     "size": 14,
                     "vaxes": {
@@ -104,6 +128,7 @@
                     "weight": 500
                 },
                 "medium": {
+                    "family": "",
                     "italic": false,
                     "size": 12,
                     "vaxes": {
@@ -112,6 +137,7 @@
                     "weight": 500
                 },
                 "small": {
+                    "family": "",
                     "italic": false,
                     "size": 11,
                     "vaxes": {
@@ -123,6 +149,7 @@
             "mono": {
                 "family": "CaskaydiaCove NF",
                 "large": {
+                    "family": "",
                     "italic": false,
                     "size": 16,
                     "vaxes": {
@@ -130,6 +157,7 @@
                     "weight": 400
                 },
                 "medium": {
+                    "family": "",
                     "italic": false,
                     "size": 14,
                     "vaxes": {
@@ -137,6 +165,7 @@
                     "weight": 400
                 },
                 "small": {
+                    "family": "",
                     "italic": false,
                     "size": 12,
                     "vaxes": {
@@ -148,6 +177,7 @@
             "title": {
                 "family": "GoogleSansFlex",
                 "large": {
+                    "family": "",
                     "italic": false,
                     "size": 22,
                     "vaxes": {
@@ -156,6 +186,7 @@
                     "weight": 500
                 },
                 "medium": {
+                    "family": "",
                     "italic": false,
                     "size": 16,
                     "vaxes": {
@@ -164,6 +195,7 @@
                     "weight": 500
                 },
                 "small": {
+                    "family": "",
                     "italic": false,
                     "size": 14,
                     "vaxes": {
@@ -174,9 +206,11 @@
             },
             "workspaces": "Rubik"
         },
+        "islands": false,
         "padding": {
             "scale": 1
         },
+        "pitchBlack": false,
         "rounding": {
             "scale": 1
         },
@@ -185,8 +219,25 @@
         },
         "transparency": {
             "base": 0.85,
-            "enabled": false,
+            "enabled": true,
             "layers": 0.4
+        }
+    },
+    "audio": {
+        "sounds": {
+            "cameraClick": true,
+            "chargingStarted": true,
+            "disabledNotifApps": [
+            ],
+            "effectTick": true,
+            "enabled": true,
+            "lock": true,
+            "lowBattery": true,
+            "notificationSound": "Iapetus.wav",
+            "notificationVolume": 1,
+            "screenRecord": true,
+            "sfxVolume": 1,
+            "unlock": true
         }
     },
     "background": {
@@ -198,7 +249,25 @@
             },
             "enabled": true,
             "invertColors": false,
-            "position": "bottom-center",
+            "position": "top-left",
+            "scale": 1,
+            "shadow": {
+                "blur": 0.4,
+                "enabled": true,
+                "opacity": 0.7
+            }
+        },
+        "desktopLyrics": {
+            "alignment": 1,
+            "autoHide": true,
+            "background": {
+                "blur": true,
+                "enabled": false,
+                "opacity": 0.7
+            },
+            "enabled": true,
+            "invertColors": false,
+            "position": "top-right",
             "scale": 1,
             "shadow": {
                 "blur": 0.4,
@@ -207,6 +276,12 @@
             }
         },
         "enabled": true,
+        "videoWallpaperMuteOnMedia": false,
+        "videoWallpaperPauseOnAllDisplays": false,
+        "videoWallpaperPauseOnFullscreen": false,
+        "videoWallpaperPauseOnTiled": false,
+        "videoWallpaperPaused": false,
+        "videoWallpaperSoundEnabled": false,
         "visualiser": {
             "autoHide": true,
             "blur": false,
@@ -214,18 +289,24 @@
             "rounding": 1,
             "spacing": 1
         },
-        "wallpaperEnabled": true
+        "wallpaperEnabled": true,
+        "wallpaperRecolor": true,
+        "wallpaperRecolorStrength": 0.4
     },
     "bar": {
         "activeWindow": {
             "compact": true,
             "inverted": false,
-            "showOnHover": false
+            "showOnHover": true
         },
         "clock": {
-            "background": false,
+            "background": true,
             "showDate": true,
             "showIcon": true
+        },
+        "dock": {
+            "monitorCenter": true,
+            "recolourIcons": false
         },
         "dragThreshold": 20,
         "entries": [
@@ -239,11 +320,19 @@
             },
             {
                 "enabled": true,
+                "id": "github"
+            },
+            {
+                "enabled": true,
                 "id": "spacer"
             },
             {
                 "enabled": true,
                 "id": "activeWindow"
+            },
+            {
+                "enabled": true,
+                "id": "dock"
             },
             {
                 "enabled": true,
@@ -268,30 +357,38 @@
         ],
         "excludedScreens": [
         ],
+        "github": {
+            "background": false
+        },
         "persistent": false,
         "popouts": {
             "activeWindow": true,
             "statusIcons": true,
             "tray": true
         },
+        "position": "bottom",
         "scrollActions": {
             "brightness": true,
             "volume": true,
             "workspaces": true
         },
-        "showOnHover": false,
+        "showOnHover": true,
         "status": {
+            "peripheralBatteryExcluded": [
+            ],
             "showAudio": true,
             "showBattery": false,
             "showBluetooth": false,
-            "showKbLayout": false,
+            "showKbLayout": true,
             "showLockStatus": true,
             "showMicrophone": true,
             "showNetwork": true,
-            "showWifi": true
+            "showNotifications": true,
+            "showPeripheralBattery": false,
+            "showWifi": false
         },
         "tray": {
-            "background": false,
+            "background": true,
             "compact": true,
             "hiddenIcons": [
             ],
@@ -301,28 +398,27 @@
         },
         "workspaces": {
             "activeIndicator": true,
-            "activeLabel": "󰮯",
+            "activeLabel": " 󰮯",
             "activeTrail": false,
             "capitalisation": "preserve",
-            "label": "  ",
+            "label": " ",
             "maxWindowIcons": 5,
             "occupiedBg": false,
-            "occupiedLabel": "󰮯",
+            "occupiedLabel": " 󰮯",
             "perMonitorWorkspaces": true,
             "showWindows": true,
             "showWindowsOnSpecialWorkspaces": true,
             "shown": 5,
             "specialWorkspaceIcons": [
-                {
-                    "icon": "sports_esports",
-                    "name": "steam"
-                }
             ],
+            "useIcon": true,
             "windowIcons": [
                 {
                     "icon": "sports_esports",
                     "regex": "steam(_app_(default|[0-9]+))?"
                 }
+            ],
+            "wsIcons": [
             ]
         }
     },
@@ -332,22 +428,26 @@
         "thickness": 10
     },
     "dashboard": {
+        "colorizeMediaGif": true,
         "dragThreshold": 50,
         "enabled": true,
         "mediaUpdateInterval": 500,
         "performance": {
-            "showBattery": false,
+            "showBattery": true,
             "showCpu": true,
             "showGpu": true,
             "showMemory": true,
             "showNetwork": true,
             "showStorage": true
         },
+        "profilePicShape": 20,
         "resourceUpdateInterval": 1000,
         "showDashboard": true,
+        "showHyprlandSplash": false,
         "showMedia": true,
         "showOnHover": false,
         "showPerformance": true,
+        "showTerminal": true,
         "showWeather": true
     },
     "enabled": true,
@@ -396,21 +496,19 @@
             "timeouts": [
                 {
                     "idleAction": "lock",
-                    "inhibitWhenAudio": false,
-                    "inhibitWhenCharging": false,
-                    "respectInhibitors": true,
-                    "timeout": 600
+                    "timeout": 180
                 },
                 {
                     "idleAction": "dpms off",
                     "returnAction": "dpms on",
-                    "timeout": 1800
+                    "timeout": 300
                 },
                 {
                     "idleAction": [
-                        "suspendThenHibernate"
+                        "loginctl",
+                        "suspend"
                     ],
-                    "timeout": 3600
+                    "timeout": 600
                 }
             ]
         },
@@ -427,9 +525,7 @@
                     "autocomplete",
                     "calc"
                 ],
-                "dangerous": false,
                 "description": "Do simple math equations (powered by Qalc)",
-                "enabled": true,
                 "icon": "calculate",
                 "name": "Calculator"
             },
@@ -438,9 +534,7 @@
                     "autocomplete",
                     "scheme"
                 ],
-                "dangerous": false,
                 "description": "Change the current colour scheme",
-                "enabled": true,
                 "icon": "palette",
                 "name": "Scheme"
             },
@@ -449,9 +543,7 @@
                     "autocomplete",
                     "wallpaper"
                 ],
-                "dangerous": false,
                 "description": "Change the current wallpaper",
-                "enabled": true,
                 "icon": "image",
                 "name": "Wallpaper"
             },
@@ -460,9 +552,7 @@
                     "autocomplete",
                     "variant"
                 ],
-                "dangerous": false,
                 "description": "Change the current scheme variant",
-                "enabled": true,
                 "icon": "colors",
                 "name": "Variant"
             },
@@ -472,9 +562,7 @@
                     "wallpaper",
                     "-r"
                 ],
-                "dangerous": false,
                 "description": "Switch to a random wallpaper",
-                "enabled": true,
                 "icon": "casino",
                 "name": "Random"
             },
@@ -483,9 +571,7 @@
                     "setMode",
                     "light"
                 ],
-                "dangerous": false,
                 "description": "Change the scheme to light mode",
-                "enabled": true,
                 "icon": "light_mode",
                 "name": "Light"
             },
@@ -494,39 +580,38 @@
                     "setMode",
                     "dark"
                 ],
-                "dangerous": false,
                 "description": "Change the scheme to dark mode",
-                "enabled": true,
                 "icon": "dark_mode",
                 "name": "Dark"
             },
             {
                 "command": [
+                    "loginctl",
                     "poweroff"
                 ],
                 "dangerous": true,
                 "description": "Shutdown the system",
-                "enabled": true,
                 "icon": "power_settings_new",
                 "name": "Shutdown"
             },
             {
                 "command": [
+                    "loginctl",
                     "reboot"
                 ],
                 "dangerous": true,
                 "description": "Reboot the system",
-                "enabled": true,
                 "icon": "cached",
                 "name": "Reboot"
             },
             {
                 "command": [
-                    "logout"
+                    "hyprctl",
+                    "dispatch",
+                    "exit"
                 ],
                 "dangerous": true,
                 "description": "Log out of the current session",
-                "enabled": true,
                 "icon": "exit_to_app",
                 "name": "Logout"
             },
@@ -535,19 +620,16 @@
                     "loginctl",
                     "lock-session"
                 ],
-                "dangerous": false,
                 "description": "Lock the current session",
-                "enabled": true,
                 "icon": "lock",
                 "name": "Lock"
             },
             {
                 "command": [
-                    "suspendThenHibernate"
+                    "loginctl",
+                    "suspend"
                 ],
-                "dangerous": false,
                 "description": "Suspend then hibernate",
-                "enabled": true,
                 "icon": "bedtime",
                 "name": "Sleep"
             },
@@ -558,28 +640,61 @@
                     "nexus",
                     "open"
                 ],
-                "dangerous": false,
                 "description": "Configure the shell",
-                "enabled": true,
                 "icon": "settings",
                 "name": "Settings"
+            },
+            {
+                "command": [
+                    "autocomplete",
+                    "emoji"
+                ],
+                "description": "Pick an emoji to copy",
+                "icon": "emoji_emotions",
+                "name": "Emoji"
+            },
+            {
+                "command": [
+                    "autocomplete",
+                    "clipboard"
+                ],
+                "description": "View clipboard history",
+                "icon": "content_paste",
+                "name": "Clipboard"
+            },
+            {
+                "command": [
+                    "autocomplete",
+                    "windows"
+                ],
+                "description": "Switch to another window",
+                "enabled": true,
+                "icon": "apps",
+                "name": "Windows"
+            },
+            {
+                "command": [
+                    "autocomplete",
+                    "keybinds"
+                ],
+                "description": "View all keybinds",
+                "icon": "keyboard",
+                "name": "Keybinds"
             }
         ],
         "dragThreshold": 50,
         "enableDangerousActions": true,
         "enabled": true,
         "favouriteApps": [
-            "neovide",
-            "spotify",
+            "steam",
             "blender",
-            "gimp",
-            "obsidian",
-            "ghidra",
-            "code-oss",
             "codium",
-            "equibop",
-            "com.rtosta.zapzap",
-            "fcitx5-configtool"
+            "gimp",
+            "WWE 2K22"
+        ],
+        "favouriteClips": [
+        ],
+        "favouriteEmojis": [
         ],
         "hiddenApps": [
         ],
@@ -590,6 +705,8 @@
         "useFuzzy": {
             "actions": true,
             "apps": true,
+            "clipboard": false,
+            "emoji": false,
             "schemes": true,
             "variants": true,
             "wallpapers": true
@@ -598,16 +715,21 @@
     },
     "lock": {
         "enableFprint": true,
+        "enableHowdy": true,
+        "enabled": true,
         "hideNotifs": false,
         "maxFprintTries": 3,
-        "recolourLogo": true
+        "maxHowdyTries": 3,
+        "profilePicShape": 19,
+        "recolourLogo": true,
+        "triggerHowdyOnWake": true
     },
     "nexus": {
-        "networkRescanInterval": 15000,
+        "networkRescanInterval": 120000,
         "wallpapersPerRow": 4
     },
     "notifs": {
-        "actionOnClick": true,
+        "actionOnClick": false,
         "clearThreshold": 0.3,
         "defaultExpireTimeout": 5000,
         "expandThreshold": 20,
@@ -624,18 +746,19 @@
         "hideDelay": 2000
     },
     "paths": {
+        "cacheDir": "/home/dim/.cache/caelestia",
         "lockNoNotifsPic": "root:/assets/dino.png",
-        "lyricsDir": "~/Music/lyrics/",
+        "lyricsDir": "/home/dim/Music/Lyrics/",
         "mediaGif": "root:/assets/bongocat.gif",
         "noNotifsPic": "root:/assets/dino.png",
         "sessionGif": "root:/assets/kurukuru.gif",
-        "wallpaperDir": "~/Pictures/Wallpapers"
+        "wallpaperDir": "/home/dim/Pictures/Wallpapers"
     },
     "services": {
         "audioIncrement": 0.1,
         "brightnessIncrement": 0.1,
         "defaultPlayer": "Spotify",
-        "gpuType": "",
+        "gpuType": "GENERIC",
         "lyricsBackend": "Auto",
         "maxVolume": 2,
         "playerAliases": [
@@ -649,20 +772,25 @@
         "useFahrenheitPerformance": false,
         "useTwelveHourClock": true,
         "visualiserBars": 60,
-        "weatherLocation": "Gazipur, Bangladesh"
+        "weatherLocation": ""
     },
     "session": {
         "commands": {
             "hibernate": [
+                "loginctl",
                 "hibernate"
             ],
             "logout": [
-                "logout"
+                "hyprctl",
+                "dispatch",
+                "exit"
             ],
             "reboot": [
+                "loginctl",
                 "reboot"
             ],
             "shutdown": [
+                "loginctl",
                 "poweroff"
             ]
         },
@@ -675,6 +803,16 @@
             "shutdown": "power_settings_new"
         },
         "vimKeybinds": false
+    },
+    "shimeji": {
+        "autoHide": true,
+        "count": 1,
+        "enabled": true,
+        "excludedScreens": [
+        ],
+        "path": "root:/assets/shimeji/pusheen/",
+        "screenCounts": {
+        }
     },
     "sidebar": {
         "dragThreshold": 80,
@@ -691,7 +829,7 @@
                 "id": "wifi"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "bluetooth"
             },
             {
@@ -707,12 +845,20 @@
                 "id": "gameMode"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "dnd"
             },
             {
                 "enabled": false,
                 "id": "vpn"
+            },
+            {
+                "enabled": true,
+                "id": "wallpaper"
+            },
+            {
+                "enabled": true,
+                "id": "badapple"
             }
         ],
         "toasts": {
@@ -728,18 +874,15 @@
             "kbLimit": true,
             "nowPlaying": false,
             "numLockChanged": true,
+            "transparency": true,
+            "transparencyBase": 0.85,
             "vpnChanged": true
         },
         "vpn": {
             "enabled": false,
             "provider": [
-                {
-                    "displayName": "Wireguard (Your VPN)",
-                    "enabled": false,
-                    "interface": "your-connection-name",
-                    "name": "wireguard"
-                }
-            ]
+            ],
+            "selectedProvider": ""
         }
     }
 }

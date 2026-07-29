@@ -49,10 +49,11 @@ return {
     ------------------
 
     -- Example 1: Launch terminal
-    hl.bind("SUPER + J", hl.dsp.exec_cmd("caelestia shell drawers toggle bar")),
+    hl.bind("SUPER + SPACE", hl.dsp.exec_cmd("caelestia shell drawers toggle bar")),
     hl.bind("SUPER + P", hl.dsp.exec_cmd("caelestia shell drawers toggle dashboard")),
     hl.bind("SUPER + O", hl.dsp.exec_cmd("obsidian")),
     hl.bind("SUPER + W", hl.dsp.exec_cmd("zapzap")),
+    hl.bind("SUPER + J", hl.dsp.exec_cmd("caelestia shell drawers toggle session")),
 
 
     -- Workspaces
