@@ -1,0 +1,98 @@
+{
+    "size": {
+        "bar": {
+            "innerWidth": 27,
+            "windowPreviewSize": 268,
+            "trayMenuWidth": 201,
+            "batteryWidth": 168,
+            "networkWidth": 214,
+            "audioWidth": 214,
+            "kbLayoutWidth": 214
+        },
+        "dashboard": {
+            "tabIndicatorHeight": 2,
+            "tabIndicatorSpacing": 3,
+            "userWidth": 228,
+            "logoSize": 20,
+            "uptimeSize": 20,
+            "dateTimeWidth": 74,
+            "mediaWidth": 134,
+            "mediaProgressSweep": 121,
+            "mediaProgressThickness": 4,
+            "resourceProgressThickness": 4,
+            "weatherWidth": 184,
+            "mediaCoverArtSize": 134,
+            "mediaTabWidth": 670,
+            "mediaTabHeight": 214,
+            "mediaSectionWidth": 201,
+            "perfHeroCardWidth": 268,
+            "perfUsageShapeSize": 67,
+            "perfStorageTextWidth": 107,
+            "perfNetworkCardWidth": 261,
+            "perfNetworkCardHeight": 147,
+            "perfBattWidth": 101,
+            "perfBattWidthSingle": 268,
+            "perfBattHeight": 107,
+            "perfPlaceholderWidth": 469
+        },
+        "launcher": {
+            "itemWidth": 402,
+            "itemHeight": 38,
+            "wallpaperWidth": 188,
+            "wallpaperHeight": 134
+        },
+        "notifs": {
+            "width": 288,
+            "image": 28,
+            "badge": 13
+        },
+        "osd": {
+            "sliderWidth": 20,
+            "sliderHeight": 101
+        },
+        "session": {
+            "button": 54
+        },
+        "sidebar": {
+            "width": 288
+        },
+        "utilities": {
+            "width": 288,
+            "toastWidth": 288
+        },
+        "lock": {
+            "heightMult": 0.7,
+            "ratio": 1.7777777778,
+            "centerWidth": 402,
+            "showWeatherDetailsHeight": 369,
+            "showForecastHeight": 653,
+            "forecastItemWidth": 34,
+            "largeLogoWidth": 214,
+            "largeFontWidth": 268,
+            "fetch4LinesHeight": 402,
+            "fetch3LinesHeight": 335,
+            "showColourBoxRowHeight": 382
+        },
+        "winfo": {
+            "heightMult": 0.7,
+            "detailsWidth": 335
+        },
+        "nexus": {
+            "heightMult": 0.7,
+            "ratio": 1.7777777778,
+            "minWidth": 536,
+            "minHeight": 335,
+            "maxNavWidth": 402,
+            "maxContentWidth": 536,
+            "popupWidth": 201,
+            "minPopupHeight": 134,
+            "maxPopupHeight": 536,
+            "networkShowEthDetailWidth": 415,
+            "networkShowVpnDetailWidth": 415,
+            "maxDialogWidth": 268,
+            "maxDialogHeight": 402,
+            "textFieldWidth": 168,
+            "smallTextFieldWidth": 67
+        }
+    }
+}
