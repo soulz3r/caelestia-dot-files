@@ -301,48 +301,52 @@
             "recolourIcons": false
         },
         "dragThreshold": 20,
-        "entries": [
-            {
-                "enabled": true,
-                "id": "logo"
+        "entries": {
+            "start": {
+                "values": [
+                    {
+                        "enabled": true,
+                        "id": "logo"
+                    },
+                    {
+                        "enabled": true,
+                        "id": "workspaces"
+                    },
+                    {
+                        "enabled": true,
+                        "id": "github"
+                    }
+                ]
             },
-            {
-                "enabled": true,
-                "id": "workspaces"
+            "center": {
+                "values": [
+                    {
+                        "enabled": true,
+                        "id": "dock"
+                    }
+                ]
             },
-            {
-                "enabled": true,
-                "id": "github"
-            },
-            {
-                "enabled": true,
-                "id": "spacer"
-            },
-            {
-                "enabled": true,
-                "id": "dock"
-            },
-            {
-                "enabled": true,
-                "id": "spacer"
-            },
-            {
-                "enabled": true,
-                "id": "tray"
-            },
-            {
-                "enabled": true,
-                "id": "clock"
-            },
-            {
-                "enabled": true,
-                "id": "statusIcons"
-            },
-            {
-                "enabled": true,
-                "id": "power"
+            "end": {
+                "values": [
+                    {
+                        "enabled": true,
+                        "id": "tray"
+                    },
+                    {
+                        "enabled": true,
+                        "id": "clock"
+                    },
+                    {
+                        "enabled": true,
+                        "id": "statusIcons"
+                    },
+                    {
+                        "enabled": true,
+                        "id": "power"
+                    }
+                ]
             }
-        ],
+        },
         "excludedScreens": [],
         "github": {
             "background": false
