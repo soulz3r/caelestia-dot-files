@@ -65,8 +65,10 @@ return {
     kbPrevWs                   = "CTRL + SUPER + Left",
 
     -- Window Group
-    kbWindowGroupCycleNext     = "ALT + TAB",
-    kbWindowGroupCyclePrev     = "SHIFT + ALT + TAB",
+    kbWindowCycleNext          = "ALT + TAB",
+    kbWindowCyclePrev          = "SHIFT + ALT + TAB",
+    kbWindowGroupCycleNext     = "CTRL + ALT + TAB",
+    kbWindowGroupCyclePrev     = "CTRL + SHIFT + ALT + TAB",
     kbUngroup                  = "SUPER + U",
     kbToggleGroup              = "SUPER + Comma",
 
@@ -74,7 +76,7 @@ return {
     kbMoveWindow               = "SUPER + Z",
     kbResizeWindow             = "SUPER + X",
     kbWindowPip                = "SUPER + ALT + backslash",
-    kbPinWindow                = "SUPER + P",
+    kbPinWindow                = "SUPER + SHIFT + P",
     kbWindowFullscreen         = "SUPER + F",
     kbWindowBorderedFullscreen = "SUPER + ALT + F",
     kbToggleWindowFloating     = "SUPER + ALT + space",

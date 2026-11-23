@@ -9,40 +9,17 @@
         "deeadly137/emoji",
         "deeadly137/keybinds",
         "deeadly137/windowswitcher",
-        "deeadly137/dock"
+        "deeadly137/dock",
+        "deeadly137/livewall",
+        "deeadly137/nebulawidgets"
     ],
-    "path": [
-    ],
+    "path": [],
     "settings": {
         "deeadly137/clipboard": {
             "favouriteTrigger": "cfav ",
             "historySize": 20,
             "showImages": true,
             "trigger": "clip "
-        },
-        "deeadly137/desktoplyrics": {
-            "appearance": {
-                "invertColors": false,
-                "position": "bottom-center",
-                "scale": 1,
-                "width": 350
-            },
-            "background": {
-                "blur": true,
-                "enabled": false,
-                "opacity": 0.3
-            },
-            "general": {
-                "autoHideFullscreen": true,
-                "autoHideTiled": true,
-                "enabled": true,
-                "overlay": true
-            },
-            "shadow": {
-                "blur": 0.4,
-                "enabled": true,
-                "opacity": 0.6
-            }
         },
         "deeadly137/desktoppet": {
             "autoHide": false,
@@ -65,15 +42,12 @@
             "aiOpenRouterApiKey": "",
             "aiOpenRouterModel": "openrouter/auto",
             "aiOpenRouterUrl": "https://openrouter.ai/api/v1",
-            "aiRecentModels": [
-            ],
+            "aiRecentModels": [],
             "barPosition": "bottom",
-            "hiddenApps": [
-            ],
+            "hiddenApps": [],
             "initialSidebarTab": "notifications",
             "pauseVideoOnFullscreen": true,
-            "peripheralBatteryExcluded": [
-            ],
+            "peripheralBatteryExcluded": [],
             "shell": "fish",
             "showNews": true,
             "showNotifications": true,
