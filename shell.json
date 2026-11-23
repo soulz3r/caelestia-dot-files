@@ -448,7 +448,9 @@
             "playback": [
                 "mpv"
             ],
-            "terminal": "kitty"
+            "terminal": [
+                "kitty"
+            ]
         },
         "battery": {
             "criticalLevel": 3,
