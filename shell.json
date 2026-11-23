@@ -320,10 +320,6 @@
             },
             {
                 "enabled": true,
-                "id": "activeWindow"
-            },
-            {
-                "enabled": true,
                 "id": "dock"
             },
             {
