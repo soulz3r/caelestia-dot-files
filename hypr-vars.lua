@@ -4,7 +4,7 @@ return {
     ------------------
 
     -- Apps
-    terminal                   = "foot",
+    terminal                   = "kitty",
     browser                    = "zen-browser",
     editor                     = "neovide --no-idle",
     fileExplorer               = "thunar",

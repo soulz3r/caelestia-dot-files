@@ -1,10 +1,17 @@
 return {
+  hl.config({
+    misc = {
+      animate_manual_resizes       = true,
+      animate_mouse_windowdragging = true,
+    },
+    ["debug.disable_scale_checks"] = true,
+  }),
 
   -- 1. Monitors Configuration
   hl.monitor({
     output = "HDMI-A-1",
-    mode = "1920x1080@74.9999",
-    position = "auto",
+    mode = "1366x768@75",
+    position = "1x1",
     scale = 1,
   }),
 
@@ -29,12 +36,4 @@ hl.window_rule({
   },
   workspace = "special:communication",
 }),
-
-hl.config({
-    misc = {
-        animate_manual_resizes       = true,
-        animate_mouse_windowdragging = true,
-      }
-})
-
 }

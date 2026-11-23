@@ -1,0 +1,157 @@
+{
+    "enabled": [
+        "deeadly137/wallhaven",
+        "deeadly137/desktoppet",
+        "deeadly137/dimessentials",
+        "xlonely/betterlyrics",
+        "deeadly137/pipmanager",
+        "deeadly137/clipboard",
+        "deeadly137/emoji",
+        "deeadly137/keybinds",
+        "deeadly137/windowswitcher",
+        "deeadly137/dock"
+    ],
+    "path": [
+    ],
+    "settings": {
+        "deeadly137/clipboard": {
+            "favouriteTrigger": "cfav ",
+            "historySize": 20,
+            "showImages": true,
+            "trigger": "clip "
+        },
+        "deeadly137/desktoplyrics": {
+            "appearance": {
+                "invertColors": false,
+                "position": "bottom-center",
+                "scale": 1,
+                "width": 350
+            },
+            "background": {
+                "blur": true,
+                "enabled": false,
+                "opacity": 0.3
+            },
+            "general": {
+                "autoHideFullscreen": true,
+                "autoHideTiled": true,
+                "enabled": true,
+                "overlay": true
+            },
+            "shadow": {
+                "blur": 0.4,
+                "enabled": true,
+                "opacity": 0.6
+            }
+        },
+        "deeadly137/desktoppet": {
+            "autoHide": false,
+            "count": 1,
+            "path": "assets/pusheen",
+            "scale": 0.75
+        },
+        "deeadly137/dimessentials": {
+            "aiActiveProvider": "ollama",
+            "aiDefaultOllamaModel": "llama3",
+            "aiEnableCelestialMode": false,
+            "aiEnableOllama": true,
+            "aiEnableOpenClaw": false,
+            "aiEnableOpenRouter": false,
+            "aiOllamaHistoryJson": "[]",
+            "aiOllamaUrl": "http://localhost:11434",
+            "aiOpenClawModel": "openclaw/default",
+            "aiOpenClawToken": "",
+            "aiOpenClawUrl": "http://127.0.0.1:18789",
+            "aiOpenRouterApiKey": "",
+            "aiOpenRouterModel": "openrouter/auto",
+            "aiOpenRouterUrl": "https://openrouter.ai/api/v1",
+            "aiRecentModels": [
+            ],
+            "barPosition": "bottom",
+            "hiddenApps": [
+            ],
+            "initialSidebarTab": "notifications",
+            "pauseVideoOnFullscreen": true,
+            "peripheralBatteryExcluded": [
+            ],
+            "shell": "fish",
+            "showNews": true,
+            "showNotifications": true,
+            "showPeripheralBattery": false
+        },
+        "deeadly137/dock": {
+            "recolourIcons": false,
+            "showPreviews": true
+        },
+        "deeadly137/emoji": {
+            "favouriteTrigger": "efav ",
+            "limit": 20,
+            "trigger": "emoji "
+        },
+        "deeadly137/keybinds": {
+            "limit": 100,
+            "trigger": "keybinds "
+        },
+        "deeadly137/livewall": {
+            "engineSilent": false,
+            "engineSource": "",
+            "engineVolume": 0.15,
+            "source": ""
+        },
+        "deeadly137/nebulawidgets": {
+            "corner": true
+        },
+        "deeadly137/pipmanager": {
+            "followFocus": true,
+            "paused": false,
+            "position": "bottom left"
+        },
+        "deeadly137/wallhaven": {
+            "apiKey": "",
+            "filters": {
+                "anime": true,
+                "general": true,
+                "minimumResolution": "any",
+                "nsfw": false,
+                "people": true,
+                "sfw": true,
+                "sketchy": false,
+                "sorting": "relevance"
+            }
+        },
+        "deeadly137/windowswitcher": {
+            "activeWorkspaceOnly": true,
+            "limit": 20,
+            "trigger": "windows "
+        },
+        "xlonely/betterlyrics": {
+            "appearance": {
+                "invertColors": false,
+                "position": "bottom-center",
+                "scale": 1,
+                "width": 350
+            },
+            "background": {
+                "blur": true,
+                "enabled": false,
+                "opacity": 0.3
+            },
+            "betterLyrics": {
+                "apiKey": "",
+                "enabled": true,
+                "fallback": true
+            },
+            "general": {
+                "autoHideFullscreen": true,
+                "autoHideTiled": true,
+                "enabled": true,
+                "overlay": false
+            },
+            "shadow": {
+                "blur": 0.4,
+                "enabled": true,
+                "opacity": 0.6
+            }
+        }
+    }
+}
